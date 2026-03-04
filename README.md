@@ -74,6 +74,7 @@ Uygulamanın kolayca indirip kurabilmesi için repo artık otomatik APK üretir 
 
 **Video Demo:**
 [Uygulama Tanıtım Videosu](https://github.com/elcinx/colorectal-health-app-/blob/main/video/video.mp4)
+Youtube Video Linki: https://youtube.com/shorts/TciWCPyZX2M
 
 **Direkt indirme (APK):**
 [app-debug.apk](https://github.com/elcinx/colorectal-health-app-/releases/latest/download/app-debug.apk)
