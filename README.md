@@ -68,5 +68,21 @@ Uygulamanın kurulum dosyalarını (APK veya IPA) oluşturmak için Expo Applica
     eas build -p ios --profile preview
     ```
 
+## 📦 APK Dağıtımı (GitHub Release)
+
+Uygulamanın kolayca indirip kurabilmesi için repo artık otomatik APK üretir ve GitHub `Release` alanına yükler.
+
+**Direkt indirme:**
+[app-debug.apk](https://github.com/elcinx/colorectal-health-app-/releases/latest/download/app-debug.apk)
+
+**Çalışma Mantığı:**
+1. `main` branchine her push sonrası GitHub Actions Android debug APK build alır.
+2. Build çıktısı `latest-apk` release tagine `app-debug.apk` olarak otomatik yüklenir.
+3. Yukarıdaki tek linkten en güncel APK dosyasini indirilebilir.
+
+> [!NOTE]
+> İlk APK'nın oluşması için bu değişikliğin GitHub'a pushlanması ve workflow'un bir kez çalışması gerekir. Workflow durumu repo içindeki **Actions** sekmesinden izlenebilir.
+
+
 ---
 *Bu proje insan odaklı sağlık çözümleri için tasarlanmıştır.* 💙
