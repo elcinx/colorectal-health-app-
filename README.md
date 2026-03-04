@@ -72,7 +72,10 @@ Uygulamanın kurulum dosyalarını (APK veya IPA) oluşturmak için Expo Applica
 
 Uygulamanın kolayca indirip kurabilmesi için repo artık otomatik APK üretir ve GitHub `Release` alanına yükler.
 
-**Direkt indirme:**
+**Video Demo:**
+[Uygulama Tanıtım Videosu](https://github.com/elcinx/colorectal-health-app-/blob/main/video/video.mp4)
+
+**Direkt indirme (APK):**
 [app-debug.apk](https://github.com/elcinx/colorectal-health-app-/releases/latest/download/app-debug.apk)
 
 **Çalışma Mantığı:**
